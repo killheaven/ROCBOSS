@@ -112,7 +112,6 @@ class View
 
             @file_put_contents($tmpPath, $tpl, LOCK_EX);
         }
-
         include $tmpPath;
     }
 
